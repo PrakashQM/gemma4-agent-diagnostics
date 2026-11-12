@@ -1,0 +1,12 @@
+batch,study,condition,resolved_count,deviation_from_mean
+B1,controlled30,A_alt_v1,8,0.45454545454545414
+B2,edit_recovery_replication,A_alt_v1,8,0.45454545454545414
+B3,forced_localization,A_alt_v1,6,-1.5454545454545459
+B4,semantic_restraint,A_alt_v1,8,0.45454545454545414
+I1,controlled30,B_verify_path,7,-0.5454545454545459
+I2,controlled30,C_edit_recovery,10,2.454545454545454
+I3,controlled30,D_graph_once,7,-0.5454545454545459
+I4,edit_recovery_replication,C_edit_recovery,7,-0.5454545454545459
+I5,forced_localization,L_forced_localization,7,-0.5454545454545459
+I6,semantic_restraint,S_semantic_restraint,8,0.45454545454545414
+I7,semantic_falsification,F_semantic_falsification,7,-0.5454545454545459

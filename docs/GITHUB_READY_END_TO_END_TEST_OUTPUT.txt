@@ -1,0 +1,43 @@
+All manifest checks passed.
+=== Public frozen corpus ===
+rows: 416
+study                      condition               
+controlled30               A_alt_v1                    30
+                           B_verify_path               30
+                           C_edit_recovery             30
+                           D_graph_once                30
+edit_recovery_replication  A_alt_v1                    30
+                           C_edit_recovery             30
+exploratory_diagnostic60   A_alt_v1                    60
+forced_localization        A_alt_v1                    30
+                           L_forced_localization       30
+requests_verification      A_alt_v1                    13
+                           B_verify_path               13
+semantic_falsification     F_semantic_falsification    30
+semantic_restraint         A_alt_v1                    30
+                           S_semantic_restraint        30
+
+PUBLIC RELEASE HEADLINE ASSERTIONS PASSED.
+Note: raw competition traces are intentionally excluded; full reruns use official Kaggle inputs.
+Baseline-never-solved subset: 0/220 observed attempts (descriptive; repeated tasks)
+Edit-recovery status changes are confined to: rich_3063, rich_3180, rich_3278
+11-batch frontier: always/never/variable = 5/20/5
+Batch resolved counts: [8, 8, 6, 8, 7, 10, 7, 7, 7, 8, 7] | mean=7.55, sample SD=1.04
+Never-solved 20 issues across 220 attempts: empty patch=67, agent limit=46, evaluator exit 1/2=197 (overlapping categories)
+FRONTIER/SENSITIVITY ASSERTIONS PASSED.
+                     group  attempts  successful_runs  distinct_issues_solved
+ Four baseline repetitions       120               30                      10
+Seven intervention batches       210               53                      10
+
+                           measure  baseline  restraint
+      Median patch chars, all runs     611.0      549.0
+                     Empty patches       7.0       10.0
+Median patch chars, non-empty only     895.0      891.5
+Paired non-empty: n=18, median delta=0.0, shrink/same/grow=8/4/6
+FRESH SEMANTIC DIAGNOSTIC ASSERTIONS PASSED.
+O resolved: 4/24; O+S resolved: 2/24
+Manual relevant probes: O 20/24; O+S 19/24
+Issue frontier: O 2/12; O+S 1/12; O-only 1; O+S-only 0
+.....                                                                    [100%]
+5 passed in 0.00s
+PUBLIC RELEASE END-TO-END ASSERTIONS PASSED.

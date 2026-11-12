@@ -1,0 +1,4 @@
+measure,baseline,restraint
+"Median patch chars, all runs",611.0,549.0
+Empty patches,7.0,10.0
+"Median patch chars, non-empty only",895.0,891.5

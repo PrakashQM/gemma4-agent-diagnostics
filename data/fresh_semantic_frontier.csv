@@ -1,0 +1,13 @@
+task_id,OS_semantic,O_operational,O_ever,OS_ever,O_only,OS_only,both,neither
+fastapi_14099,False,False,False,False,False,False,False,True
+fastapi_14186,False,False,False,False,False,False,False,True
+fastapi_14246,False,False,False,False,False,False,False,True
+fastapi_14258,False,False,False,False,False,False,False,True
+fastapi_14297,False,False,False,False,False,False,False,True
+fastapi_14371,False,False,False,False,False,False,False,True
+fastapi_14463,True,True,True,True,False,False,True,False
+fastapi_14512,False,False,False,False,False,False,False,True
+fastapi_14609,False,False,False,False,False,False,False,True
+fastapi_14953,False,False,False,False,False,False,False,True
+rich_3675,False,False,False,False,False,False,False,True
+rich_3777,False,True,True,False,True,False,False,False

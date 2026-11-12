@@ -1,0 +1,20 @@
+{
+  "schema_version": "fixture",
+  "steps": [
+    {
+      "source": "agent",
+      "tool_calls": [
+        {
+          "function_name": "run_command",
+          "arguments": {
+            "command": "echo SEMANTIC_FALSIFICATION_CHECK && python check.py"
+          }
+        }
+      ],
+      "observation": {
+        "content": "{\"status\": \"error\", \"error_type\": \"CommandError\", \"details\": {\"exit_code\": 1, \"stderr\": \"assertion failed\"}}"
+      }
+    }
+  ],
+  "expected_marker_execution": true
+}

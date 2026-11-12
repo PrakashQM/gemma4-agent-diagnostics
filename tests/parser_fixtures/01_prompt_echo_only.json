@@ -1,0 +1,21 @@
+{
+  "schema_version": "fixture",
+  "system_prompt": "Please run SEMANTIC_FALSIFICATION_CHECK before submission.",
+  "steps": [
+    {
+      "source": "agent",
+      "tool_calls": [
+        {
+          "function_name": "run_command",
+          "arguments": {
+            "command": "python -c \"print(1)\""
+          }
+        }
+      ],
+      "observation": {
+        "content": "{\"status\": \"ok\", \"details\": {\"exit_code\": 0, \"stdout\": \"1\\\\n\", \"stderr\": \"\"}}"
+      }
+    }
+  ],
+  "expected_marker_execution": false
+}

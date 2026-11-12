@@ -1,0 +1,20 @@
+{
+  "schema_version": "fixture",
+  "steps": [
+    {
+      "source": "agent",
+      "tool_calls": [
+        {
+          "function_name": "run_command",
+          "arguments": {
+            "command": "python -c \"assert preserved_behavior()\""
+          }
+        }
+      ],
+      "observation": {
+        "content": "{\"status\": \"ok\", \"details\": {\"exit_code\": 0}}"
+      }
+    }
+  ],
+  "expected_marker_execution": false
+}

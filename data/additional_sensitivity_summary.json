@@ -1,0 +1,16 @@
+{
+  "baseline_never_solved_issues": 20,
+  "baseline_attempts_on_these_issues": 80,
+  "intervention_attempts_on_these_issues": 140,
+  "total_attempts_on_these_issues": 220,
+  "successes_on_these_issues": 0,
+  "independence_caveat": "Repeated attempts are clustered within the same 20 issues; no independent-trial confidence bound is reported.",
+  "varying_edit_recovery_tasks": [
+    "rich_3063",
+    "rich_3180",
+    "rich_3278"
+  ],
+  "stable_edit_recovery_tasks": 27,
+  "baseline_never_solved_observed_successes": 0,
+  "baseline_never_solved_observed_attempts": 220
+}

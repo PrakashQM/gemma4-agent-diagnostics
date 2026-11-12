@@ -1,0 +1,6 @@
+metric,count
+Baseline-empty -> intervention-nonempty events,10
+"Of those, resolved",2
+"Of those, unresolved",8
+Reverse events (baseline nonempty -> intervention empty),3
+Net empty-patch reduction,7

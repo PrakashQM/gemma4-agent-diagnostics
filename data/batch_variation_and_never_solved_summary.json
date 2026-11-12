@@ -1,0 +1,25 @@
+{
+  "n_never_solved_issues": 20,
+  "attempts": 220,
+  "empty_patch_attempts": 67,
+  "agent_limit_attempts": 45,
+  "evaluator_exit_1_or_2_attempts": 197,
+  "categories_overlap": true,
+  "batch_resolved_counts": [
+    8,
+    8,
+    6,
+    8,
+    7,
+    10,
+    7,
+    7,
+    7,
+    8,
+    7
+  ],
+  "batch_mean_resolved": 7.545454545454546,
+  "batch_sample_sd": 1.0357254813546264,
+  "batch_min": 6,
+  "batch_max": 10
+}

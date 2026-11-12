@@ -1,0 +1,24 @@
+{
+  "evaluation_issues": 12,
+  "evaluation_repetitions": 2,
+  "evaluation_runs": 48,
+  "preflight_issues": 2,
+  "preflight_runs": 4,
+  "preflight_rule": "Two pre-specified tasks (one Rich, one FastAPI) were used only to debug the harness and were excluded before evaluation runs began.",
+  "evaluation_repositories": {
+    "FastAPI": 10,
+    "Rich": 2
+  },
+  "specification_provenance": "Frozen before inference; self-reviewed; derived only from issue statements; no reference patches, hidden tests, evaluator outputs, or candidate-run outcomes used.",
+  "run_level_discordance": {
+    "O_only": 2,
+    "OS_only": 0,
+    "note": "Both O-only run-level discordances are repeated evaluations of the same issue, rich_3777."
+  },
+  "issue_level_frontier": {
+    "O_distinct": 2,
+    "OS_distinct": 1,
+    "O_only": 1,
+    "OS_only": 0
+  }
+}

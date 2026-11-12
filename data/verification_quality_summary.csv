@@ -1,0 +1,6 @@
+verification_class,count,percent
+observational_probe,70,68.6
+inline_assertion,15,14.7
+targeted_test,13,12.7
+broad_test,2,2.0
+syntax_or_import_only,2,2.0

@@ -1,0 +1,49 @@
+task_id,rep,condition,marker_executed,issue_relevant_behavior_probe_observed,note
+fastapi_14099,1,O_operational,False,False,exploration only; no behavioral probe
+fastapi_14099,2,O_operational,False,False,exploration only; no behavioral probe
+fastapi_14186,1,O_operational,False,False,exploration only; no behavioral probe
+fastapi_14186,2,O_operational,False,False,exploration only; no behavioral probe
+fastapi_14246,1,O_operational,False,True,behavioral probe executed
+fastapi_14246,2,O_operational,False,True,behavioral probe executed
+fastapi_14258,1,O_operational,True,True,behavioral probe executed
+fastapi_14258,2,O_operational,False,True,behavioral probe executed
+fastapi_14297,1,O_operational,False,True,behavioral probe executed
+fastapi_14297,2,O_operational,False,True,behavioral probe executed
+fastapi_14371,1,O_operational,False,True,behavioral probe executed
+fastapi_14371,2,O_operational,False,True,behavioral probe executed
+fastapi_14463,1,O_operational,True,True,behavioral probe executed
+fastapi_14463,2,O_operational,False,True,behavioral probe executed
+fastapi_14512,1,O_operational,False,True,behavioral probe executed
+fastapi_14512,2,O_operational,False,True,behavioral probe executed
+fastapi_14609,1,O_operational,False,True,behavioral probe executed
+fastapi_14609,2,O_operational,False,True,behavioral probe executed
+fastapi_14953,1,O_operational,False,True,behavioral probe executed
+fastapi_14953,2,O_operational,False,True,behavioral probe executed
+rich_3675,1,O_operational,False,True,behavioral probe executed
+rich_3675,2,O_operational,False,True,behavioral probe executed
+rich_3777,1,O_operational,False,True,behavioral probe executed
+rich_3777,2,O_operational,False,True,behavioral probe executed
+fastapi_14099,1,OS_semantic,False,False,exploration and edit only; no behavioral probe
+fastapi_14186,1,OS_semantic,False,False,exploration and edit only; no behavioral probe
+fastapi_14246,1,OS_semantic,False,True,behavioral probe executed
+fastapi_14258,1,OS_semantic,False,True,behavioral probe executed
+fastapi_14297,1,OS_semantic,False,True,behavioral probe executed
+fastapi_14371,1,OS_semantic,False,True,behavioral probe executed; no post-edit recheck preserved
+fastapi_14463,1,OS_semantic,True,True,behavioral probe executed; marked check executed
+fastapi_14512,1,OS_semantic,False,True,behavioral probe executed; edit incomplete
+fastapi_14609,1,OS_semantic,False,True,behavioral probe executed
+fastapi_14953,1,OS_semantic,False,True,behavioral probe executed
+rich_3675,1,OS_semantic,True,True,behavioral probe executed; marked check executed
+rich_3777,1,OS_semantic,False,True,behavioral probe executed
+fastapi_14099,2,OS_semantic,False,False,exploration only; no behavioral probe
+fastapi_14186,2,OS_semantic,False,False,exploration only; no behavioral probe
+fastapi_14246,2,OS_semantic,False,True,behavioral probe executed
+fastapi_14258,2,OS_semantic,True,True,behavioral probe executed; marked check executed
+fastapi_14297,2,OS_semantic,False,True,behavioral probe executed
+fastapi_14371,2,OS_semantic,False,True,behavioral probe executed
+fastapi_14463,2,OS_semantic,False,True,behavioral probe executed
+fastapi_14512,2,OS_semantic,False,True,behavioral probe executed; edit incomplete
+fastapi_14609,2,OS_semantic,False,True,behavioral probe executed; agent limit
+fastapi_14953,2,OS_semantic,False,True,behavioral probe executed; edit incomplete
+rich_3675,2,OS_semantic,False,True,behavioral probe executed
+rich_3777,2,OS_semantic,False,False,exploration and edit only; no post-edit behavioral probe

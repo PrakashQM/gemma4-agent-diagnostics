@@ -1,0 +1,31 @@
+task_id,resolved,patch_chars,tool_calls,error,actual_marker,first_edit_step,post_verify_n,post_verify_success
+fastapi_14262,False,0,28,nan,False,,0,False
+rich_3942,False,741,28,nan,False,30.0,0,False
+fastapi_9425,False,0,28,nan,False,,0,False
+rich_3930,False,333,28,Agent exceeded session timeout (8 min),False,28.0,0,False
+rich_3006,True,558,22,nan,True,15.0,7,True
+fastapi_15280,False,626,28,nan,False,26.0,0,False
+fastapi_5077,True,1143,21,nan,False,14.0,0,False
+rich_3782,False,876,28,nan,False,12.0,0,False
+fastapi_13207,False,1280,28,nan,False,22.0,8,True
+rich_3278,True,322,23,nan,False,,0,False
+rich_2943,True,487,27,nan,True,26.0,2,True
+fastapi_15023,False,2396,24,nan,False,18.0,1,True
+fastapi_15661,False,3141,27,nan,False,19.0,2,True
+rich_3063,False,0,24,Agent exceeded session timeout (8 min),False,,0,False
+fastapi_14430,False,0,18,Agent exceeded session timeout (8 min),False,,0,False
+rich_3180,False,1016,8,Agent exceeded session timeout (8 min),False,,0,False
+rich_3296,False,504,23,nan,True,14.0,4,True
+fastapi_14361,False,1042,20,Agent exceeded session timeout (8 min),False,10.0,5,True
+fastapi_9555,True,1688,12,nan,False,10.0,2,True
+rich_4075,False,0,28,nan,False,,0,False
+fastapi_13713,False,2732,28,nan,False,15.0,0,False
+rich_3894,True,595,19,nan,False,10.0,5,True
+rich_3535,False,465,12,nan,True,9.0,4,True
+fastapi_15030,False,1140,14,nan,False,12.0,3,True
+fastapi_15588,False,1875,14,nan,True,4.0,3,True
+rich_3938,False,0,28,Agent exceeded session timeout (8 min),False,,0,False
+fastapi_14964,False,1756,22,nan,False,14.0,2,True
+rich_3905,True,627,17,nan,False,9.0,5,True
+fastapi_14349,False,0,18,Agent exceeded session timeout (8 min),False,,0,False
+fastapi_13786,False,5503,28,nan,False,16.0,0,False

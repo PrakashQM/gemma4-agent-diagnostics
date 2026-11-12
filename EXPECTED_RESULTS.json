@@ -1,0 +1,54 @@
+{
+  "trajectory_rows": 416,
+  "controlled_rows": 356,
+  "exploratory_rows": 60,
+  "edit_recovery_pooled": {
+    "baseline_n": 60,
+    "baseline_resolved": 16,
+    "baseline_nonempty": 42,
+    "intervention_n": 60,
+    "intervention_resolved": 17,
+    "intervention_nonempty": 49,
+    "rescue_events": 10,
+    "rescues_resolved": 2,
+    "reverse_events": 3
+  },
+  "requests_verification": {
+    "n_per_condition": 13,
+    "baseline_resolved": 1,
+    "intervention_resolved": 1,
+    "baseline_pythonpath_compliance": 2,
+    "intervention_pythonpath_compliance": 13,
+    "baseline_file_check": 5,
+    "intervention_file_check": 13
+  },
+  "forced_localization": {
+    "n_per_condition": 30,
+    "baseline_resolved": 6,
+    "intervention_resolved": 7,
+    "intervention_preedit_graph": 12
+  },
+  "semantic_restraint": {
+    "n_per_condition": 30,
+    "baseline_resolved": 8,
+    "intervention_resolved": 8,
+    "baseline_median_patch_chars": 611,
+    "intervention_median_patch_chars": 549
+  },
+  "semantic_falsification": {
+    "n": 30,
+    "resolved": 7,
+    "actual_marker_compliance": 5,
+    "historical_baselines": [
+      8,
+      8,
+      6,
+      8
+    ]
+  },
+  "post_edit_verification": {
+    "unresolved_nonempty": 162,
+    "successful_post_edit_check": 102,
+    "rate": 0.6296296296
+  }
+}

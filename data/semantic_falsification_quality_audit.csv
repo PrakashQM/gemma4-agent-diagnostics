@@ -1,0 +1,6 @@
+task_id,quality,dimension,evidence,resolved
+fastapi_15588,meaningful_adversarial,preserved invariant,adjacent preserved-behavior check after fix,False
+rich_2943,meaningful_adversarial,idempotence / preserved null behavior,idempotence and null-behavior check after fix,True
+rich_3006,nominal_marker_reproduction,reproduction rather than adjacent counterexample,marked command re-ran reproduction; adjacent default check unmarked,True
+rich_3296,meaningful_adversarial,preserved default behavior,preserved-default check after fix,False
+rich_3535,meaningful_adversarial,boundary / invariant over optimized range,boundary check over optimized range plus excluded-boundary probe,False

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this diagnostic resource, please cite the accompanying paper."
+title: "Gemma 4 Agent Diagnostics"
+type: software
+authors:
+  - family-names: "Verma"
+    given-names: "Prakash"
+version: "1.0.0"
+date-released: "2026-11-11"
+license: "Apache-2.0"
+repository-code: "https://github.com/prakashqm/gemma4-agent-diagnostics"
+preferred-citation:
+  type: article
+  title: "When Process Gains Fail to Improve Coding Agents: A Replicated Intervention Study"
+  authors:
+    - family-names: "Verma"
+      given-names: "Prakash"
+  year: 2026

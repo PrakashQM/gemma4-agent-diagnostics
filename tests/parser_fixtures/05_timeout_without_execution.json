@@ -1,0 +1,21 @@
+{
+  "schema_version": "fixture",
+  "system_prompt": "SEMANTIC_FALSIFICATION_CHECK",
+  "steps": [
+    {
+      "source": "agent",
+      "tool_calls": [
+        {
+          "function_name": "read_file",
+          "arguments": {
+            "filepath": "x.py"
+          }
+        }
+      ],
+      "observation": {
+        "content": "{\"status\": \"ok\"}"
+      }
+    }
+  ],
+  "expected_marker_execution": false
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "fixture",
+  "system_prompt": "Please run SEMANTIC_FALSIFICATION_CHECK.",
+  "steps": [
+    {
+      "source": "agent",
+      "tool_calls": [
+        {
+          "function_name": "run_command",
+          "arguments": {
+            "command": "echo SEMANTIC_FALSIFICATION_CHECK && python check.py"
+          }
+        }
+      ],
+      "observation": {
+        "content": "{\"status\": \"ok\", \"details\": {\"exit_code\": 0, \"stdout\": \"ok\", \"stderr\": \"\"}}"
+      }
+    }
+  ],
+  "expected_marker_execution": true
+}

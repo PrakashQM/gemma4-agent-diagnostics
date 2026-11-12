@@ -1,0 +1,12 @@
+{
+  "always_resolved": 5,
+  "never_resolved": 20,
+  "variable": 5,
+  "variable_tasks": {
+    "rich_3180": 2,
+    "rich_3063": 2,
+    "rich_3278": 5,
+    "fastapi_9425": 9,
+    "rich_2943": 10
+  }
+}

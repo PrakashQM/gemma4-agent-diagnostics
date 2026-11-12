@@ -1,0 +1,11 @@
+study,task_id,resolved,patch_chars,audit_category
+initial,fastapi_13207,False,696,Semantic fix remains incorrect
+initial,fastapi_14262,False,832,Incomplete implementation
+initial,fastapi_15280,False,15903,Overbroad/speculative implementation
+initial,rich_3063,True,533,Resolved
+initial,rich_3278,True,319,Resolved
+initial,rich_3938,False,491,Plausible but semantically insufficient
+initial,rich_3942,False,499,Regression / failed invariant
+replication,fastapi_14262,False,2519,Incomplete implementation
+replication,rich_3180,False,660,Weak/confirmatory verification of wrong hypothesis
+replication,rich_3942,False,455,Specification misinterpretation / unsupported guess

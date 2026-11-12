@@ -1,0 +1,25 @@
+task_id,rep,resolved,marker_executed,issue_relevant_behavior_probe_observed,note
+fastapi_14099,1,False,False,False,exploration and edit only; no behavioral probe
+fastapi_14186,1,False,False,False,exploration and edit only; no behavioral probe
+fastapi_14246,1,False,False,True,behavioral probe executed
+fastapi_14258,1,False,False,True,behavioral probe executed
+fastapi_14297,1,False,False,True,behavioral probe executed
+fastapi_14371,1,False,False,True,behavioral probe executed; no post-edit recheck preserved
+fastapi_14463,1,True,True,True,behavioral probe executed; marked check executed
+fastapi_14512,1,False,False,True,behavioral probe executed; edit incomplete
+fastapi_14609,1,False,False,True,behavioral probe executed
+fastapi_14953,1,False,False,True,behavioral probe executed
+rich_3675,1,False,True,True,behavioral probe executed; marked check executed
+rich_3777,1,False,False,True,behavioral probe executed
+fastapi_14099,2,False,False,False,exploration only; no behavioral probe
+fastapi_14186,2,False,False,False,exploration only; no behavioral probe
+fastapi_14246,2,False,False,True,behavioral probe executed
+fastapi_14258,2,False,True,True,behavioral probe executed; marked check executed
+fastapi_14297,2,False,False,True,behavioral probe executed
+fastapi_14371,2,False,False,True,behavioral probe executed
+fastapi_14463,2,True,False,True,behavioral probe executed
+fastapi_14512,2,False,False,True,behavioral probe executed; edit incomplete
+fastapi_14609,2,False,False,True,behavioral probe executed; agent limit
+fastapi_14953,2,False,False,True,behavioral probe executed; edit incomplete
+rich_3675,2,False,False,True,behavioral probe executed
+rich_3777,2,False,False,False,exploration and edit only; no post-edit behavioral probe
